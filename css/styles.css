@@ -10,15 +10,13 @@ body{
   -o-background-size: cover;
   background-size: cover;
 }
+img{
+  display: none;
+}
 h1{
 	font-size: 6rem;
 	color: rgb(27, 159, 173);
   font-weight: bold;
-}
-.box {
-  width: 800px;
-  padding: 50px;
-  margin: 100px;
 }
 #results {
   font-size: 23px;

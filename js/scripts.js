@@ -9,7 +9,6 @@ const robogor = function(entry){
     }
   }
   isNumber(entry);
-
   entryArray.forEach(function(number){
       if (number.toString().includes(3)){
       entryArray[number] = "Won't you be my neighbor?"
@@ -28,5 +27,6 @@ $(document).ready(function(){
 let entry = parseInt($("input#entry").val());
 let result = robogor(entry);
 $("#results").text(result);
+$("img").fadeIn(6200).slideUp(6200);
   })
 })
