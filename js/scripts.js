@@ -1,9 +1,8 @@
 const robogor = function(entry){
   let entryArray = [];
-  for (let index = 0; index <= entry; index += 1){
+  for (let index=0; index<=entry; index++){
     entryArray.push(index);
   } 
-
   function isNumber(entry){
     if (isNaN(entry)){
       alert("Please enter a number");
@@ -20,9 +19,8 @@ const robogor = function(entry){
       entryArray[number] = "Beep!"
     } 
   })
-  return entryArray;
+  return entryArray.join(", ");
 }
-
 $(document).ready(function(){
   $("form#robogor").submit(function(event){
     event.preventDefault();
