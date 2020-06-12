@@ -1,37 +1,61 @@
-# _{Application Name}_
+# _Mr Robogor's Neighborhood_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A program that counts and replaces user entries, June, 2020_
 
-#### By _**{List of contributors}**_
+#### By _**Matthew Craig**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This program will accept a user entered number and return a count-up to that number, but replace certain numbers with words_
+
+## Specs
+The program will ignore non-numeric values
+* Input: $p
+* Output: Please enter a number
+
+The program will take any number with a 1 included and replace it with "Beep!"
+* Input: 10
+* Output: "Beep!"
+
+The program will take any number with a 2 included and replace it with "Boop!"
+* Input: 2
+* Output: "Boop!"
+
+The program will take any number with a 3 included and replace it with "Won't you be my neighbor?"
+* Input: 3
+* Output: "Won't you be my neighbor?"
+
+The program will prioritize the number 3 over the number 2, and the number 2 over the number 1
+* input: 123
+* ouput: "Won't you be my neighbor?"
+
+The program will return a list of numbers counting up to the number entered
+* input: 6
+* output: 0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* Clone repository using this link: https://github.com/mgcraig78/Roman-Numerals
+* Go to the terminal and navigate to your desktop, using the command $ cd desktop
+* Navigate to the project folder, using the command $cd language-suggester
+* Open in a text editor (Atom, Visual Studio Code, or similar). For Visual Studio Code, use the command $ code .
+* To preview this project in your browser, use the terminal command $ open index.html
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_No known bugs_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Matthew Craig: mgcraig78@gmail.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_html, css, bootstrap, javascript, jquery_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*MIT License*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_Matthew Craig_**
