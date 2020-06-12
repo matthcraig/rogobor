@@ -9,8 +9,11 @@ const robogor = function(entry){
     }
   }
   isNumber(entry);
+  let name= ($("input#name")).val();
   entryArray.forEach(function(number){
-      if (number.toString().includes(3)){
+      if (number % 50 === 0){
+      entryArray[number] = "Won't you be my neighbor, " + name;
+    } else if (number.toString().includes(3)){
       entryArray[number] = "Won't you be my neighbor?"
     } else if (number.toString().includes(2)){
       entryArray[number] = "Boop!"
