@@ -5,7 +5,7 @@ const robogor = function(entry){
   } 
   entryArray.forEach(function(number){
     // if number has a 3 present....
-    if(number.includes(1)){
+    if(number === 1){
     entryArray[number] = "Beep";
     }
   });
@@ -20,6 +20,6 @@ $(document).ready(function(){
 
 let entry = parseInt($("input#entry").val());
 let result = robogor(entry);
-console.log(result);
+$("#results").text(result);
   })
 })
