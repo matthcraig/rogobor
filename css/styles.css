@@ -18,6 +18,13 @@ h1{
 	color: rgb(27, 159, 173);
   font-weight: bold;
 }
+.entry1 {
+  margin-top: 30px;
+}
+.entry2 {
+  margin-top: 30px;
+  margin-left: 15px;
+}
 #results {
   font-size: 23px;
   color: rgb(22, 131, 143);
@@ -26,9 +33,6 @@ h1{
   margin-top: 30px;
   margin-bottom: 20px;
   width: 18%;
-}
-#entry {
-  margin: 30px;
 }
 #results{
   width: 700px;
