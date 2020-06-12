@@ -6,9 +6,12 @@ const robogor = function(entry){
 
   entryArray.forEach(function(number){
     // if number has a 3 present....
-    if (number.toString().includes(1)){
-    entryArray[number] = "Beep";
+    if (number.toString().includes(2)){
+      entryArray[number] = "Boop!";
+    } else if (number.toString().includes(1)){
+    entryArray[number] = "Beep!";
     }
+  
   });
     // if number has a 2 present....
     // if number has a 1 present....
