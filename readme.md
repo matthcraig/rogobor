@@ -6,7 +6,7 @@
 
 ## Description
 
-_This program will accept a user entered number and return a count-up to that number, but replace certain numbers with words_
+_This program will accept a user entered name and number and return a count-up to that number, but replace certain numbers with words, and a personalized message for certain numbers_
 
 ## Specs
 The program will ignore non-numeric values
@@ -33,11 +33,16 @@ The program will return a list of numbers counting up to the number entered
 * input: 6
 * output: 0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6
 
+The program will take the users name, and in conjunction with an entered number that is %0, will return the phrase: "Won't you be my neighbor, (name)?"
+* input: name-Fred, 
+* input: number-5
+* output: Won't you be my neighbor, Fred?, Beep!, Boop!, Won't you be my neighbor?, 4, 5
+
 ## Setup/Installation Requirements
 
-* Clone repository using this link: https://github.com/mgcraig78/Roman-Numerals
+* Clone repository using this link: https://github.com/mgcraig78/rogobor
 * Go to the terminal and navigate to your desktop, using the command $ cd desktop
-* Navigate to the project folder, using the command $cd language-suggester
+* Navigate to the project folder, using the command $ cd rogobor
 * Open in a text editor (Atom, Visual Studio Code, or similar). For Visual Studio Code, use the command $ code .
 * To preview this project in your browser, use the terminal command $ open index.html
 
@@ -53,6 +58,10 @@ _Matthew Craig: mgcraig78@gmail.com_
 ## Technologies Used
 
 _html, css, bootstrap, javascript, jquery_
+
+## Web address
+
+https://mgcraig78.github.io/rogobor
 
 ### License
 
