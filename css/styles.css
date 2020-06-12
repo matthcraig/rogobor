@@ -1,23 +1,40 @@
 body{
-	margin: 0;
-  padding: 0;
-  width: auto;
-  height: 1000px;
-  font-size: 30px;
+	margin: 10;
+  padding: 10;
+  font-size: 25px;
   color: rgb(27, 159, 173);
 	font-family: 'Quicksand', sans-serif;
-  background-image: linear-gradient(200deg,rgb(29, 208, 240) 0%,rgb(192, 162, 247) 74%);
+  background-image: linear-gradient(90deg,rgb(29, 208, 240) 0%,rgb(192, 162, 247) 74%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 h1{
 	font-size: 6rem;
 	color: rgb(27, 159, 173);
-	font-weight: bold;
+  font-weight: bold;
+}
+.box {
+  width: 800px;
+  padding: 50px;
+  margin: 100px;
 }
 #results {
-  font-size: 25px;
+  font-size: 23px;
   color: rgb(22, 131, 143);
 }
 .btn {
+  margin-top: 30px;
+  margin-bottom: 20px;
   width: 18%;
+}
+#entry {
+  margin: 30px;
+}
+#results{
+  width: 700px;
+  padding: 20px;
+  margin: 10px;
 }
 
