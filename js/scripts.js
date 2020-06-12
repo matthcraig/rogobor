@@ -3,9 +3,10 @@ const robogor = function(entry){
   for (let index = 0; index <= entry; index += 1){
     entryArray.push(index);
   } 
+
   entryArray.forEach(function(number){
     // if number has a 3 present....
-    if(number === 1){
+    if (number.toString().includes(1)){
     entryArray[number] = "Beep";
     }
   });
