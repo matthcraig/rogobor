@@ -5,14 +5,21 @@ const robogor = function(entry){
   } 
   entryArray.forEach(function(number){
     // if number has a 3 present....
+    if(number.includes(1)){
+    entryArray[number] = "Beep";
+    }
+  });
     // if number has a 2 present....
     // if number has a 1 present....
-  })
   return entryArray;
 }
 
 $(document).ready(function(){
   $("form#robogor").submit(function(event){
     event.preventDefault();
+
+let entry = parseInt($("input#entry").val());
+let result = robogor(entry);
+console.log(result);
   })
 })
