@@ -3,16 +3,23 @@ const robogor = function(entry){
   for (let index=0; index<=entry; index++){
     entryArray.push(index);
   } 
+  let name= ($("input#name")).val();
+  function isName(name){
+    if(!isNaN(name)){
+    alert("Please enter a name");
+  }
+}
+isName(name);
   function isNumber(entry){
     if (isNaN(entry)){
       alert("Please enter a number");
     }
   }
   isNumber(entry);
-  let name= ($("input#name")).val();
+
   entryArray.forEach(function(number){
-      if (number % 50 === 0){
-      entryArray[number] = "Won't you be my neighbor, " + name;
+      if (number > 0 && number % 50 === 0){
+      entryArray[number] = "Won't you be my neighbor, " + name + "?";
     } else if (number.toString().includes(3)){
       entryArray[number] = "Won't you be my neighbor?"
     } else if (number.toString().includes(2)){
@@ -26,7 +33,7 @@ const robogor = function(entry){
 $(document).ready(function(){
   $("form#robogor").submit(function(event){
     event.preventDefault();
-
+    
 let entry = parseInt($("input#entry").val());
 let result = robogor(entry);
 $("#results").text(result);
